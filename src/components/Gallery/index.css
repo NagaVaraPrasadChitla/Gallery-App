@@ -1,0 +1,32 @@
+/* Write your code here. */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+}
+.gallery-image {
+  display: flex;
+  width: 85%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  flex-direction: column;
+  max-width: 1000px;
+}
+.selected-image {
+  border-radius: 10px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: 'roboto';
+}
+.paragraph {
+  color: #64748b;
+}
+.list {
+  flex-wrap: wrap;
+  display: flex;
+  list-style: none;
+}
